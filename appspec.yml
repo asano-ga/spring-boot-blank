@@ -5,6 +5,6 @@ files:
     destination: /home/ec2-user
 hooks:
    ApplicationStart:
-     - location: /home/ec2-user/app_run.sh
+     - location: app_run.sh
        timeout: 1800
        runas: ec2-user

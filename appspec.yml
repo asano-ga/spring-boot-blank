@@ -8,3 +8,6 @@ hooks:
      - location: app_run.sh
        timeout: 1800
        runas: root
+   ApplicationStop:
+     - location: app_stop.sh
+       runas: root
